@@ -1,0 +1,26 @@
+baseURL = "http://example.org/"
+languageCode = "pt-br"
+title = "Visão Encoberta"
+theme = "solar"
+description = "Entendendo o futebol e melhorando a qualidade da discussão"
+
+[params]
+	# Custom styling
+	# To customize the styling of this theme, uncomment and edit the following line to point 
+	# to your site's css in the assets/ directory. 
+custom_css = ["css/style.css"]
+scheme = "light"
+
+[menu]
+	[[menu.main]]
+		name = "Início"
+		url = "/comecou/"
+	[[menu.main]]
+		name = "Blog"
+		url = "/"
+	[[menu.other]]
+		name = "Demo"
+		url = "https://themes.gohugo.io/theme/solar-theme-hugo/"
+	[[menu.other]]
+		name = "Sobre"
+		url = "/sobre/"
